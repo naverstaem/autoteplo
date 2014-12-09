@@ -1826,7 +1826,7 @@ header .header__form, .header--bottom .header__form { position: relative; z-inde
 .review__text { font-family: "pf_din_text_cond_prolight"; font-size: 18px; color: #ffffff; margin-top: 10px; padding-right: 20px; line-height: 1.6em; }
 
 .works { padding: 40px 0; }
-.works h2 { margin-bottom: 20px; color: #6ea01e; }
+.works h2 { margin-bottom: 20px; font-family: "bebas_neuelight"; color: #3c3c3c; }
 .works__item { margin-top: 20px; text-align: center; }
 .works__item p { font-family: "pf_din_text_cond_prolight"; font-size: 18px; color: #1e1e1e; padding: 0 40px; }
 .works__img { display: inline-block; margin-bottom: 10px; text-align: center; line-height: 140px; width: 140px; height: 140px; -moz-border-radius: 24px; -webkit-border-radius: 24px; border-radius: 24px; border: solid 2px #dbdbdb; }
