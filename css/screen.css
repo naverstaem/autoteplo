@@ -1774,7 +1774,7 @@ header .header__form, .header--bottom .header__form { position: relative; z-inde
 .advantages__list li:before { position: absolute; content: counter(myCounter); counter-increment: myCounter; width: 50px; height: 50px; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; background: #bd3b09; text-align: center; color: #ffffff; font-family: "bebas_neueregular"; font-size: 30px; line-height: 50px; top: 10px; left: -24px; }
 .advantages__list li span { display: table-cell; vertical-align: middle; }
 
-.info { background: url(../img/info_bg.png) repeat; position: relative; margin-top: -48px; padding: 80px 0 0; }
+.info { background: url(../img/info_bg.png) repeat; position: relative; margin-top: -48px; padding: 80px 0 55px; }
 .info div[class^="col-md-"] { z-index: 1; }
 .info:after { position: absolute; content: ""; top: 0; left: 0; right: 0; bottom: 0; z-index: 0; background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI0MCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g'); background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(40%, rgba(255, 255, 255, 0)), color-stop(100%, #ffffff)); background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 40%, #ffffff 100%); background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 40%, #ffffff 100%); background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 40%, #ffffff 100%); }
 .info h2 { font-family: "bebas_neuelight"; color: #3c3c3c; }
@@ -1795,6 +1795,11 @@ header .header__form, .header--bottom .header__form { position: relative; z-inde
 .info__features .item:nth-child(3) .item__img, .info__features .item:nth-child(4) .item__img, .info__features .item:nth-child(5) .item__img { border: solid 4px #e6e6e6; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; line-height: 140px; }
 .info__car { margin-top: 50px; }
 .info__car img { max-width: 100%; }
+
+.choose__header { background: #87bef0; position: relative; text-align: center; padding: 25px 0; }
+.choose__header:after { position: absolute; content: ""; bottom: -30px; left: 50%; -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -webkit-transform: translateX(-50%); transform: translateX(-50%); width: 0; height: 0; border-style: solid; border-width: 40px 40px 0 40px; border-color: #87bef0 transparent transparent transparent; }
+.choose__header h2 { color: #ffffff; font-family: "bebas_neuebook"; font-size: 48px; }
+.choose__header h3 { font-family: "pf_din_text_cond_prolight"; font-size: 18px; color: #46698c; padding: 0 100px; margin-top: 0; }
 
 .review { background: #ebf5f9; padding: 30px 0 60px; margin-top: 60px; }
 .review h2 { color: #82b4dc; }
