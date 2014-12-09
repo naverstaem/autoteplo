@@ -1832,7 +1832,7 @@ header .header__form, .header--bottom .header__form { position: relative; z-inde
 .works__img { display: inline-block; margin-bottom: 10px; text-align: center; line-height: 140px; width: 140px; height: 140px; -moz-border-radius: 24px; -webkit-border-radius: 24px; border-radius: 24px; border: solid 2px #dbdbdb; }
 .works__img img { vertical-align: middle; }
 
-.header--bottom { padding-top: 30px; }
+.header--bottom { background: url(../img/header--bottom_bg.jpg); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; padding-top: 30px; }
 .header--bottom .header__form--bottom { margin-top: 140px; }
 
 .other { margin-top: 0; padding-top: 40px; padding-bottom: 70px; }
