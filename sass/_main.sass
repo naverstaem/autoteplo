@@ -1,0 +1,797 @@
+.top
+
+.navbar
+  margin-bottom: 0
+
+/////////////////////
+//.navbar-collapse
+//  &.in
+//    overflow-y: inherit
+/////////////////////
+.navbar-brand
+  text-transform: uppercase
+  color: #ffffff !important
+  font-family: 'pf_din_text_cond_prothin'
+  font-size: 42px
+  margin-top: 10px
+  span
+    color: #282828
+.navbar-default
+  border: none
+  background: url(../img/top_bg.png)
+  +cover
+  text-align: center
+  padding: 27px 0
+  .icon-bar
+    background-color: #ffffff !important
+
+  .navbar-nav
+    margin-top: 15px
+
+    li
+      a
+        color: #ffffff // text color
+        font-family: 'pf_din_text_cond_prolight'
+        font-size: 16px
+        position: relative
+        text-transform: none
+        text-decoration: underline
+        &:after
+          position: absolute
+          content: ''
+          top: 19px
+          right: 0
+          border-right: 1px solid
+          height: 12px
+          width: 0
+        &.last
+          &:after
+            border-right: 0
+
+        &:hover, &.active, &:focus
+          text-decoration: none
+          color: #ffffff
+
+
+  .navbar-right
+    margin-top: -10px
+    font-family: 'pf_din_text_cond_prolight'
+    .phone-b
+      position: relative
+      display: inline-block
+      text-align: left
+      margin-top: 5px
+      &__nomenclature
+        margin-left: 5px
+        color: #ffffff
+        font-size: 16px
+        text-transform: none
+        display: inline-block
+        position: relative
+        line-height: 1em
+      &__phone
+        font-family: 'pf_din_text_cond_proXTh'
+        font-size: 36px
+        color: #ffffff
+        margin-top: -7px
+        span
+          font-size: 48px
+          font-family: 'pf_din_text_cond_prolight'
+
+    .right-b
+      display: inline-block
+      margin-left: 30px
+      .button--top
+        display: inline-block
+        +border-radius(2px)
+        +background-clip(padding-box)
+        +box-shadow(inset 0 -2px 0 rgba(200,180,70,.6))
+        +background-image(linear-gradient(to bottom, #ffef00 0%, #ffdb4f 100%))
+        width: 160px
+        height: 40px
+        font-family: 'pf_din_text_cond_prolight'
+        font-size: 18px
+        color: #1e1e1e
+        text-transform: none
+        vertical-align: bottom
+        +tr(background 500ms)
+        border: none
+        &:hover
+          +box-shadow(0 0 0 0)
+          border: none
+          background: #505a3c
+          color: #ffdb00
+
+
+
+
+header
+  position: relative
+  background: url(../img/header_bg.jpg) no-repeat
+  +cover
+  overflow: hidden
+  padding: 40px 0
+  .header__top
+    text-align: center
+    width: 45%
+    margin: 0 auto
+    h2
+      font-family: 'pf_din_text_cond_prothin'
+      font-size: 36px
+      color: #3c3c3c
+      margin: 0
+    h1
+      font-size: 120px
+      margin: 0
+    h3
+      font-family: 'pf_din_text_cond_prolight'
+      font-size: 18px
+      color: #3c3c3c
+      margin: 0
+      line-height: 1.4em
+  .header__img
+    width: 540px
+    height: 510px
+    position: relative
+    top: 96px
+    left: -150px
+    img
+
+  .header__price
+    width: 200px
+    height: 200px
+    border: solid 2px rgba(#fff,.3)
+    +border-radius(50%)
+    text-align: center
+    margin-top: 95px
+    .header__price-in
+      display: inline-block
+      position: relative
+      top: 50%
+      +transform(translateY(-50%))
+      padding-top: 55px
+      width: 180px
+      height: 180px
+      +border-radius(50%)
+      +background-clip(padding-box)
+      background: rgba(#d1454b,.9)
+      +background-image(linear-gradient(to left, #8b1313 0%, #ef631d 100%))
+
+    .price--new
+      display: inline-block
+      font-family: 'bebas_neuebook'
+      font-size: 48px
+      line-height: 1em
+      color: #ffffff
+      span
+        font-family: 'als_rublregular'
+        font-size: 24px
+        line-height: 1em
+    .price--old
+      display: inline-block
+      font-family: 'pf_din_text_cond_prolight'
+      font-size: 18px
+      color: #ffffff
+      margin-top: 0
+
+
+
+
+  .header__form
+    position: relative
+    z-index: 0
+    margin-top: 30px
+
+.about
+  padding: 45px 0 60px
+  font-family: 'pf_din_text_cond_prolight'
+  font-size: 18px
+  color: #3c3c3c
+  .row
+    margin-top: 30px
+    &:last-child
+      p
+        margin-top: 75px
+  h2
+    +background-image(linear-gradient(to left, #8c1414 0%, #f0641e 100%))
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    font-family: 'bebas_neueregular'
+    font-size: 72px
+    text-align: center
+  p
+    margin-top: 30px
+
+.advantages
+  background: url(../img/advantages_bg.png)
+  +cover
+  padding: 35px 0
+  position: relative
+  z-index: 1
+  h2
+    color: #fff
+  &__img
+    width: 540px
+    height: auto
+    margin-left: -60px
+    margin-top: 100px
+
+    img
+      max-width: 100%
+  &__bottom
+    text-align: center
+    margin-top: 30px
+  &__remain
+    display: inline-block
+    p
+      font-family: 'pf_din_text_cond_prolight'
+      font-size: 18px
+      color: #ffffff
+      margin-bottom: 5px
+    span
+      display: inline-block
+      width: 60px
+      height: 70px
+      position: relative
+      +border-radius(4px)
+      +background-clip(padding-box)
+      background: #1d1d1d
+      +box-shadow(inset 0 -2px 0 rgba(0,0,0,.5))
+      +background-image(linear-gradient(to bottom, #dbdbdb 0%, #8b8b8b 25%, #636363 40%, #131313 55%, #595959 100%))
+      font-size: 48px
+      color: #ffffff
+      margin: 0 2px
+      font-family: 'bebas_neuebook'
+      &:after
+        position: absolute
+        content: ''
+        top: 32px
+        left: 0
+        width: 100%
+        height: 4px
+        +background-image(linear-gradient(to bottom, rgba(0,0,0,0) 0%,#000 100%))
+  .button--info
+    font-family: 'pf_highway_sans_probold'
+    font-size: 30px
+    height: 70px
+    width: 180px
+    padding-top: 10px
+    display: inline-block
+    vertical-align: bottom
+    +border-radius(4px)
+    margin-left: 35px
+    background: transparent
+    border: solid 2px #ffffff
+    color: #ffffff
+    &:hover
+      text-decoration: none
+      +box-shadow(inset 0 0 8px 0 #fff)
+  &__list
+    font-family: 'pf_din_text_cond_prolight'
+    font-size: 18px
+    color: #ffffff
+    list-style: none
+    counter-reset: myCounter
+    padding-left: 0
+    margin-bottom: 35px
+    li
+      &:nth-child(1)
+        background: url(../img/a-img1.png) left center no-repeat
+      &:nth-child(2)
+        background: url(../img/a-img2.png) left center no-repeat
+      &:nth-child(3)
+        background: url(../img/a-img3.png) left center no-repeat
+      &:nth-child(4)
+        background: url(../img/a-img4.png) left center no-repeat
+      min-height: 150px
+      margin-top: 20px
+      padding-left: 145px
+      display: table
+      position: relative
+      &:before
+        position: absolute
+        content: counter(myCounter)
+        counter-increment: myCounter
+        width: 50px
+        height: 50px
+        +border-radius(50%)
+        background: #bd3b09
+        text-align: center
+        color: #ffffff
+        font-family: 'bebas_neueregular'
+        font-size: 30px
+        line-height: 50px
+        top: 10px
+        left: -24px
+
+      span
+        display: table-cell
+        vertical-align: middle
+
+.info
+  background: url(../img/info_bg.png) repeat
+  position: relative
+  margin-top: -48px
+  padding: 80px 0 55px
+  div[class^="col-md-"]
+    z-index: 1
+
+  &:after
+    position: absolute
+    content: ''
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    z-index: 0
+    +background(linear-gradient(to bottom, rgba(#fff, 0) 40%, rgba(#fff,1) 100%))
+  h2
+    font-family: 'bebas_neuelight'
+    color: #3c3c3c
+  &__left
+    margin-top: 40px
+    img
+      &:nth-child(3)
+        margin-top: -70px
+  &__economy
+    text-align: center
+    color: #ffffff
+    width: 240px
+    height: 240px
+    +border-radius(50%)
+    +background(linear-gradient(220deg, #ffb300 0%, #ef631d 29%, #8b1313 100%))
+    padding-top: 50px
+    position: relative
+    display: inline-block
+    left: 115px
+    top: -100px
+    .percent
+      font-family: 'bebas_neuebold'
+      font-size: 96px
+      line-height: 1
+      span
+        font-family: 'bebas_neueregular'
+        font-size: 36px
+      p
+        font-family: 'pf_din_text_cond_prolight'
+        font-size: 24px
+        margin: 0
+  &__list
+    font-family: 'pf_din_text_cond_prolight'
+    font-size: 18px
+    color: #3c3c3c
+    padding-left: 0
+    counter-reset: myCounter
+    list-style: none
+    li
+      position: relative
+      padding-left: 100px
+      margin-top: 30px
+      &:before
+        position: absolute
+        content: counter(myCounter)
+        counter-increment: myCounter
+        text-align: center
+        width: 80px
+        height: 80px
+        +border-radius(50%)
+        border: solid 2px #ffffff
+        font-family: 'bebas_neuebold'
+        font-size: 48px
+        color: #be3c0a
+        top: 0
+        left: 0
+
+  &__bottom
+    z-index: 1
+    position: relative
+    text-align: center
+    margin-top: 130px
+  &__features
+    display: inline-block
+    .item
+      display: inline-block
+      text-align: center
+      vertical-align: top
+      margin-right: 35px
+      &:last-child
+        margin-right: 0
+      &__img
+        margin-bottom: 10px
+        width: 140px
+        height: 140px
+        font-family: 'bebas_neuebold'
+        font-size: 48px
+        +background-image(linear-gradient(to left, #8c1414 0%, #f0641e 100%))
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+      &:nth-child(3), &:nth-child(4), &:nth-child(5)
+        .item__img
+          border: solid 4px rgb(230,230,230)
+          +border-radius(50%)
+          line-height: 140px
+  &__car
+    margin-top: 50px
+    img
+      max-width: 100%
+
+
+.choose
+  &__header
+    background: rgb(135,190,240)
+    position: relative
+    text-align: center
+    padding: 25px 0
+    &:after
+      position: absolute
+      content: ''
+      bottom: -30px
+      left: 50%
+      +transform(translateX(-50%))
+      width: 0
+      height: 0
+      border-style: solid
+      border-width: 40px 40px 0 40px
+      border-color: rgb(135,190,240) transparent transparent transparent
+    h2
+      color: #ffffff
+      font-family: 'bebas_neuebook'
+      font-size: 48px
+    h3
+      font-family: 'pf_din_text_cond_prolight'
+      font-size: 18px
+      color: #46698c
+      padding: 0 100px
+      margin-top: 0
+  &__item
+    font-family: 'pf_din_text_cond_prolight'
+    margin-top: 55px
+    padding: 0 0 60px
+    position: relative
+    &:first-of-type
+      margin-top: 80px
+    &:after
+      position: absolute
+      bottom: 0
+      left: 0
+      content: ''
+      background: url(../img/shadow.png)
+      +cover
+      height: 20px
+      width: 1300px
+      margin: 0 auto
+      max-width: 100%
+    h3
+      font-size: 36px
+      color: #be3c0a
+    p
+      font-size: 18px
+      color: #3c3c3c
+  &__img
+    position: relative
+    width: 400px
+    height: 300px
+    display: inline-block
+    img
+      max-width: 100%
+    span
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      background: rgba(#fff, .6)
+      +opacity(0)
+      +tr(all .5s)
+      &:hover
+        +opacity(1)
+      &:after
+        position: absolute
+        top: 50%
+        content: ''
+        left: 50%
+        +transform(translate(-50%,-50%))
+        background: url(../img/zoom.png) no-repeat
+        width: 40px
+        height: 40px
+
+  &__bottom
+  &__tech
+    display: inline-block
+    font-family: 'pf_din_text_cond_proLtIt'
+    font-size: 16px
+    color: #1e1e1e
+    background: #efefef
+    +border-radius(8px)
+    padding: 15px 20px
+
+  .button--choose
+    text-align: center
+    font-family: 'pf_highway_sans_proregular'
+    font-size: 30px
+    height: 70px
+    width: 200px
+    padding-top: 10px
+    display: inline-block
+    vertical-align: bottom
+    +border-radius(4px)
+    margin-left: 35px
+    background: transparent
+    border: solid 2px #87bef0
+    color: #195fa0
+    text-decoration: underline
+    &:hover
+      text-decoration: none
+      +box-shadow(inset 0 0 8px 0 #87bef0)
+
+
+
+.review
+  background: url(../img/review_bg.jpg)
+  +cover
+  padding: 30px 0 50px
+  h2
+    color: #ffffff
+  &__item
+    margin-top: 25px
+    position: relative
+  &__img
+    display: inline-block
+    width: 80px
+    height: 80px
+    margin-right: 15px
+    vertical-align: middle
+    img
+      +border-radius(50%)
+  &__head
+    text-align: center
+    display: inline-block
+    vertical-align: top
+
+  &__name
+    font-family: 'pf_din_text_cond_prolight'
+    color: #ffffff
+    font-size: 24px
+    position: relative
+    +background(linear-gradient(to left, #8b1313 0%, #ef631d 100%))
+    height: 50px
+    width: 180px
+    padding-top: 7px
+    +box
+
+    &:after
+      position: absolute
+      top: 48px
+      left: 11px
+      background: url(../img/review-popup.png) no-repeat
+      width: 35px
+      height: 22px
+      content: ""
+
+  &__text
+    font-family: 'pf_din_text_cond_prolight'
+    font-size: 18px
+    color: #ffffff
+    margin-top: 10px
+    padding-right: 20px
+    line-height: 1.6em
+
+
+.works
+  padding: 40px 0
+  h2
+    margin-bottom: 20px
+    font-family: 'bebas_neuelight'
+    color: #3c3c3c
+  &__item
+    margin-top: 20px
+    text-align: center
+    p
+      font-family: 'pf_din_text_cond_prolight'
+      font-size: 18px
+      color: #1e1e1e
+      padding: 0 40px
+
+  &__img
+    display: inline-block
+    margin-bottom: 10px
+    text-align: center
+    line-height: 140px
+    width: 140px
+    height: 140px
+    +border-radius(24px)
+    border: solid 2px #dbdbdb
+    img
+      vertical-align: middle
+
+
+
+.header--bottom
+  @extend header
+  background: url(../img/header--bottom_bg.jpg)
+  +cover
+  padding-top: 30px
+  .header__form--bottom
+    margin-top: 140px
+
+
+.other
+  margin-top: 0
+  padding-top: 40px
+  padding-bottom: 70px
+  h2
+    font-family: 'bebas_neuelight'
+    color: #3c3c3c
+    margin-bottom: 20px
+  &__item
+    width: 100%
+    text-align: center
+    padding: 25px 10px
+    border: solid 2px #e6e6e6
+    margin-top: 20px
+    +border-radius(4px)
+  &__caption
+    font-size: 24px
+    font-family: 'conv_pfdintextcondpro-light'
+    margin-bottom: 10px
+    color: #281e1e
+    text-transform: none
+  &__img
+    display: inline-block
+    img
+
+      display: block
+      width: 100%
+      max-width: 290px
+  &__bottom
+    margin-top: 35px
+  &__price
+    +box
+    line-height: 1.4em
+    text-align: left
+    display: inline-block
+    vertical-align: middle
+    margin-top: 0
+    h3
+      font-family: 'conv_pfdintextcondpro-thin'
+      font-size: 48px
+      font-weight: normal
+      color: #1e1e1e
+      vertical-align: middle
+      span
+        font-family: 'als_rublregular'
+        font-size: 24px
+    h4
+      display: inline-block
+      font-size: 18px
+      color: #5a5a5a
+  &__text
+    padding: 20px 10px 0
+    font-size: 16px
+    color: #787878
+    text-align: center
+    margin-bottom: 5px
+    font-family: 'pf_din_text_cond_prolight'
+  &__more
+    font-family: 'pf_din_text_cond_prolight'
+    color: #23bed2
+    font-size: 18px
+    text-decoration: underline
+    &:hover, &:focus, &:active
+      text-decoration: none
+      color: #23bed2
+
+  &__form
+    display: inline-block
+    vertical-align: middle
+    margin-left: 0
+    padding: 0 25px
+    form
+      margin: 0
+      input
+        height: 50px
+        border: none
+        +border-radius(4px)
+        +background-clip(padding-box)
+        background: #efefef
+        width: 100%
+        margin-bottom: 10px
+        padding-left: 15px
+        +box-shadow(inset 0 1px 2px rgba(0,0,0,.36))
+
+        &:focus
+          +box-shadow(0 0 9px rgba(204,62,82,.13))
+      .button--other
+        margin-top: 7px
+        width: 49%
+        height: 60px
+        color: #ffffff
+        font-size: 24px
+        font-family: 'pf_highway_sans_probold'
+        border: none
+        +background-image(linear-gradient(to right, #ef631d 0%, #8b1313 100%))
+        +box-shadow(inset 0 -4px 0 rgba(165, 27, 4, 0.2))
+        +single-text-shadow()
+        &:hover, &:focus
+          background: #ef631d
+          color: #ffffff
+        &:active
+          +box-shadow(0 0 0 0)
+
+
+  &__price
+    +box
+    line-height: 1.4em
+    text-align: left
+    display: inline-block
+    vertical-align: middle
+    margin-top: 20px
+    width: 49%
+    h3
+      font-family: 'pf_din_text_cond_prothin'
+      font-size: 48px
+      font-weight: normal
+      color: #1e1e1e
+      vertical-align: middle
+      margin: 0
+      line-height: .6em
+      span
+        font-family: 'als_rublregular'
+        font-size: 24px
+    h4
+      display: inline-block
+      font-family: 'pf_din_text_cond_prolight'
+      font-size: 18px
+      color: #787878
+      font-weight: normal
+      margin: 0
+
+footer
+  background: url(../img/footer_bg.png) repeat
+  padding: 15px
+  font-family: 'pf_din_text_cond_prolight'
+  text-align: center
+  p
+    font-size: 16px
+    margin-bottom: 5px
+    color: #787878
+  a
+    color: #be3c0a
+    text-decoration: underline
+    &:hover, &:active, &:focus
+      color: #be3c0a
+      text-decoration: none
+
+
+
+//media queries
+@media (max-width: $screen-md-min)
+  header
+    .header__img
+      left: 0
+      max-width: 100%
+      img
+        max-width: 100%
+  .advantages__img
+    max-width: 100%
+@media (max-width: $screen-sm-min)
+  h1, h2
+    font-size: 32px !important
+
+  //.header--bottom
+  //  .header__discount--bottom
+  //    left: 0
+  //.other
+  //  &__item
+  //    &:after
+  //      right: -2px
+
+//@media (max-width: $screen-xs-min)
+//  .info
+//    .info__in
+//      padding-left: 40px
+//      background: none
+//  .features
+//    &__text
+//      margin-top: 140px
+
