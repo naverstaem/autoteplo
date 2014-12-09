@@ -183,8 +183,6 @@ header
     margin-top: 30px
 
 .about
-  background: url(../img/about_bg.png)
-  +cover
   padding: 45px 0 60px
   font-family: 'pf_din_text_cond_prolight'
   font-size: 18px
@@ -768,11 +766,18 @@ footer
 
 //media queries
 @media (max-width: $screen-md-min)
-
-
+  header
+    .header__img
+      left: 0
+      max-width: 100%
+      img
+        max-width: 100%
+  .advantages__img
+    max-width: 100%
 @media (max-width: $screen-sm-min)
   h1, h2
     font-size: 32px !important
+
   //.header--bottom
   //  .header__discount--bottom
   //    left: 0
